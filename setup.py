@@ -4,11 +4,11 @@ from setuptools import setup
 
 setup(
     name = 'target-encoder',
-    version = '0.2.1',
-    description = 'An NLP python package for computing Boilerplate score and many other text features.',
-    py_modules = ["MoreThanSentiments"],
+    version = '0.0.1',
+    description = 'An custom mdoule for Target Encoder.',
+    py_modules = ["Target_Encoder"],
     package_dir = {'':'src'},
-#     package = ['target-encoder'],
+#     package = ['Target_Encoder'],
 #     author = 'Jinhang Jiang, Karthik Srinivasan',
 #     author_email = 'jinhang@asu.edu',
     long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
