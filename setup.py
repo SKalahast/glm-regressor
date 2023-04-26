@@ -3,17 +3,17 @@ from setuptools import setup
 
 
 setup(
-    name = 'target-encoder',
+    name = 'glm-regressor',
     version = '0.0.1',
-    description = 'An custom mdoule for Target Encoder.',
-    py_modules = ["Target_Encoder"],
+    description = 'An custom mdoule for GLM Regressor.',
+    py_modules = ["GLMRegressor"],
     package_dir = {'':'src'},
-#     package = ['Target_Encoder'],
+#     package = ['GLMRegressor'],
 #     author = 'Jinhang Jiang, Karthik Srinivasan',
 #     author_email = 'jinhang@asu.edu',
     long_description = open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
     long_description_content_type = "text/markdown",
-    url='https://github.com/SKalahast/target-encoder',
+    url='https://github.com/SKalahast/glm-regressor',
     include_package_data=True,
     
     
