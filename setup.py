@@ -35,7 +35,8 @@ setup(
     ],
     
     install_requires = [
-        'pandas ~= 1.2.4',
+        'pandas ~= 1.4.2',
+        'numpy ~= 1.21.5'
     ],
     
     keywords = ['Data Science'],
