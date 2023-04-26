@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name = 'target-encoder',
     version = '0.0.1',
-    description = 'An custom mdoule for GLM Regressor.',
+    description = 'An custom mdoule for Target Encoder.',
     py_modules = ["Target_Encoder"],
     package_dir = {'':'src'},
 #     package = ['Target_Encoder'],
