@@ -7,6 +7,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.base import BaseEstimator, RegressorMixin
+from statsmodels.genmod.generalized_linear_model import GLM
 
 class GLMRegressor(BaseEstimator, RegressorMixin):
     
@@ -24,10 +25,3 @@ class GLMRegressor(BaseEstimator, RegressorMixin):
     def predict(self, X):
                 
         return self.model_fit.predict(X) 
-
-
-# In[ ]:
-
-
-
-
