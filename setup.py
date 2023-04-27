@@ -6,7 +6,7 @@ setup(
     name = 'target-encoder',
     version = '0.0.1',
     description = 'An custom mdoule for Target Encoder.',
-    py_modules = ["Target_Encoder"],
+    py_modules = ["Target_Encoder", "GLMRegressor"],
     package_dir = {'':'src'},
 #     package = ['Target_Encoder'],
 #     author = 'Jinhang Jiang, Karthik Srinivasan',
